@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+
+.contenitore {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightcyan;
+    height: 100vh;
+}
+
+.contenitore> b {
+    font-size: 25px;
+    color: salmon;
+    margin-bottom: 15px;
+}
+
+.contenitoreNumeri {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: darkblue;
+    color: white;
+    font-size: 24px;
+    width: 20%;
+    height: 20%;
+    border: 5px solid blue;
+}
